@@ -6,4 +6,4 @@ class Marca(models.Model):
     nacionalidade = models.CharField(max_length=50, null=True)
 
     def __str__(self):
-        return f"{self.nome}, ({self.nacionalidade}), ({self.id})"
+        return f" Marca: {self.nome} | Nacionalidade: {self.nacionalidade} | ID: {self.id}"
